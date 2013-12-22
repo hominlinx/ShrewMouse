@@ -3,13 +3,13 @@
 int main(int argc, char **argv)
 {
     // Create application object
-    //EnvMapApplication app;
+    ShrewMouseApplication app;
 
-    //try {
-        //app.go();
-    //} catch( Exception& e ) {
-        //std::cerr << "An exception has occured: " << e.getFullDescription();
-    //}
+    try {
+        app.go();
+    } catch( Exception& e ) {
+        std::cerr << "An exception has occured: " << e.getFullDescription();
+    }
 
 
     return 0;

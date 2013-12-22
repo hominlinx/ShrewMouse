@@ -1,6 +1,6 @@
 
 #include "ExampleApplication.h"
-#include "ShrewMouseManager.h"
+#include "ShrewMouseFrameListener.h"
 class ShrewMouseApplication :public ExampleApplication
 {
 public:
@@ -13,4 +13,5 @@ protected:
 
 private:
     SpShrewMouseManager _miceManager;
+    //ShrewMouseManager *_miceManager;
 };

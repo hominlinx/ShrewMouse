@@ -9,6 +9,10 @@ ShrewMouseApplication::ShrewMouseApplication()
 }
 ShrewMouseApplication::~ShrewMouseApplication()
 {
+    //if (_miceManager)
+    //{
+        //delete _miceManager;
+    //}
 
 }
 
@@ -22,6 +26,7 @@ ShrewMouseApplication::createScene()
     mCamera->setPosition(94.3f, 194.3f, 373.3f);
     mCamera->setOrientation(Ogre::Quaternion(0.9f, -0.3f, -0.08f, -0.002f));
     _miceManager = SpShrewMouseManager( new ShrewMouseManager(mSceneMgr));
+   //_miceManager = new ShrewMouseManager(mSceneMgr);
 }
 
 void
